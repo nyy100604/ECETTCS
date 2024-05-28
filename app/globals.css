@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-bg;
+  }
+  h1 {
+    @apply font-extrabold;
+  }
+  p {
+    @apply font-normal;
+  }
+  .containerTop {
+    @apply pt-[200px];
+  }
+}
