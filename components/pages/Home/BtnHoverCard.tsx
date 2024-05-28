@@ -23,10 +23,8 @@ const BtnHoverCard = ({
 }) => {
   return (
     <HoverCard openDelay={100}>
-      <HoverCardTrigger>
-        <Link href={`${go}`}>
-          <Button className={`${btnStyles}`}>{btnContent}</Button>
-        </Link>
+      <HoverCardTrigger href={go}>
+        <div className={`${btnStyles}`}>{btnContent}</div>
       </HoverCardTrigger>
       <HoverCardContent
         className={cn(

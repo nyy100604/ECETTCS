@@ -38,14 +38,14 @@ const Hero = () => {
             {" "}
             <BtnHoverCard
               go="/signup"
-              btnStyles="active:scale-90 duration-200 lg:text-[1.4rem]"
+              btnStyles="bg-secondary text-white active:scale-90 duration-200 lg:text-[1.4rem] font-medium rounded-full px-4 py-2"
               imgHref="/home/signuphint.png"
               btnContent="立即註冊"
               hintContent="立即註冊，解鎖完整的證書管理功能！"
             />
             <BtnHoverCard
               go="/learn-more"
-              btnStyles="bg-white text-secondary active:scale-90 duration-200 lg:text-[1.4rem]"
+              btnStyles="bg-white text-secondary active:scale-90 duration-200 lg:text-[1.4rem] font-medium rounded-full px-4 py-2"
               imgHref="/home/understandhint.png"
               btnContent="瞭解更多"
               hintContent="了解我們如何通過區塊鏈技術保障證書的真實性與可靠性。"
